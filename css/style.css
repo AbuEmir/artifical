@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-family: Open Sans;border: none;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+body{
+    background: #020A18;
+}
+header {
+    background: #051c4656;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    font-weight: 600;
+}
+
+nav button {
+    background: #3A68B8;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3A68B8;
+}
+
+.info h1 {
+    font-size: 55px;
+    font-weight: bold;
+    width: 550px;
+}
+
+#ftext{
+    font-size: 18px ;
+    font-weight: 600 ;
+    color:#ffffff ;
+    line-height: 28px;
+    width: 558px;
+}
+
+.btn{
+    display: flex;
+    gap: 15px;
+}
+
+.btn button{
+    background: #3A68B8;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+}
+.play{
+    background: #3A68B8;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-block: 50px;
+}
+
+.brain{
+    display: flex;
+    align-items: center;
+}
+
+.brainText{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.brain h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.brain p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #ffffff83;
+}
+
+.brain button{
+    background: #3A68B8;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 120px 0;
+
+}
+
+.boxs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-block: 25px;
+    width: 350px;
+    text-align: center;
+    border: none ;
+    border-radius: 5px;
+    background: #0a1a30d1;
+
+}
+
+.boxs h3{
+    font-size: 18px;
+    font-weight: 700;
+    width: 250px;
+}
+
+.boxs p{
+    font-size: 14px;
+    width: 250px;
+}
+
+.coment{
+    display: flex;
+    align-items: center;
+    padding-block: 80px;
+}
+
+.comText{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comText h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.comText p {
+    font-size: 16px;
+    font-weight: 600;
+    width: 460px;
+    line-height: 25px;
+    color: #ffffff83;
+}
+
+footer{
+    background: #051c4656;
+}
+
+.footer {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 50px;
+}
+
+.uli {
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+}
+
+
+.uli li {
+    color: rgba(245, 245, 245, 0.478);
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.uli li:first-child{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.footlogo img {
+    /* position: relative;
+    bottom: 20px; */
+}
+
+.footlogo p{
+    width: 300px;
+}
+
+.socialText{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: start;
+}
+.socialText h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+a{
+    font-size: 14px;
+}
+.socialText p {
+    width: 261px;
+    color: rgba(245, 245, 245, 0.478);
+    width: 280px;
+    
+}
+
+select{
+    background: none;
+}
+
+.socialf{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.lin{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.lin a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sel{
+    display: flex;
+    align-items: center;
+}
+
